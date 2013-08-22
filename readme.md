@@ -1,15 +1,17 @@
 # Race Day
 
-Create a running training calendar leading up to your race day.
+## Create a custom running training calendar leading up to your race day
+
+Just pick your race date and a training plan.
+
+Click the button to show your plan in a calendar view with the real dates leading up to your race.
 
 ## To do
 
-* create custom schedule?
+* history change (deep link are there)
 
-* deep links for sharing / bookmarking
+* export ical?
 
-* print styles
+* create custom schedule? (type in your own distances on days)
 
-* export ical
-
-* pull in dates of upcoming races?
+* pull in dates of upcoming big races to select from?

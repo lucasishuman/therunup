@@ -13,6 +13,7 @@
 
 		PLANS: [
 			{
+				id: 'm-n1-18',
 				label: 'Marathon - Novice 1 - 18 week',
 				schedule: [
 					'Rest','3 m run','3 m run','3 m run','Rest','6','Cross',
@@ -37,6 +38,7 @@
 				link: 'http://www.halhigdon.com/training/51137/Marathon-Novice-1-Training-Program'
 			},
 			{
+				id: 'm-n2-18',
 				label: 'Marathon - Novice 2 - 18 week',
 				schedule: [
 					'Rest','3 m run','5 m pace','3 m run','Rest','8','Cross',
@@ -61,6 +63,7 @@
 				link: 'http://www.halhigdon.com/training/51138/Marathon-Novice-2-Training-Program'
 			},
 			{
+				id: 'm-i1-18',
 				label: 'Marathon - Intermediate 1 - 18 week',
 				schedule: [
 					'Cross','3 m run','5 m run','3 m run','Rest','5 m pace','8',
@@ -85,6 +88,7 @@
 				link: 'http://www.halhigdon.com/training/51139/Marathon-Intermediate-1-Training-Program'
 			},
 			{
+				id: 'm-i2-18',
 				label: 'Marathon - Intermediate 2 - 18 week',
 				schedule: [
 					'Cross','3 m run','5 m run','3 m run','Rest','5 m pace','10',
@@ -109,6 +113,7 @@
 				link: 'http://www.halhigdon.com/training/51140/Marathon-Intermediate-2-Training-Program'
 			},
 			{
+				id: 'hm-n1-12',
 				label: 'Half Marathon - Novice 1 - 12 week',
 				schedule: [
 					'Stretch & strengthen','3 m run','2 m run or cross','3 m run + strength','Rest','30 min cross','4 m run',
@@ -130,9 +135,23 @@
 
 		init: function() {
 
-			var t = this;
+			var t = this,
+				hash = $.trim(window.location.hash.substr(2)),
+				params, date, planIndex;
 
 			t.initForm();
+
+			// check url params
+
+			if (hash.length > 0) {
+				params = hash.split('/');
+				date = params[0];
+				planIndex = t.getPlanIndexById(params[1]);
+				// show plan
+				t.createSchedule(date, t.PLANS[planIndex]);
+				// update form
+				t.updateForm(date, planIndex);
+			}
 
 		},
 
@@ -190,25 +209,42 @@
 
 			$('select.plans').append(plansOpts);
 
+
 			// button handler ---
 
 			$('.btn-submit').on('click', function(e) {
 				e.preventDefault();
-				t.createSchedule();
+				t.submitForm();
 			});
 
 		},
 
-		createSchedule: function() {
+		updateForm: function(date, planIndex) {
+			var t = this,
+				dateParts = date.split('-');
+			$('select.years').val(dateParts[0]);
+			$('select.months').val(dateParts[1]);
+			$('select.days').val(dateParts[2]);
+			$('select.plans').val(planIndex);
+		},
+
+		submitForm: function() {
 			var t = this,
 				selectedMonth = $('select.months').val(),
 				selectedDay = $('select.days').val(),
 				selectedYear = $('select.years').val(),
-				selectedPlan = $('select.plans').val(),
-				schedule = t.PLANS[selectedPlan].schedule,
+				selectedPlanIndex = $('select.plans').val(),
+				date = selectedYear + '-' + selectedMonth + '-' + selectedDay;
+
+			t.createSchedule(date, t.PLANS[selectedPlanIndex]);
+		},
+
+		createSchedule: function(date, plan) {
+			var t = this,
+				schedule = plan.schedule,
 				i = 0, j, len = schedule.length,
-				raceDay = moment(selectedYear + '-' + selectedMonth + '-' + selectedDay),
-				schedDay = moment(selectedYear + '-' + selectedMonth + '-' + selectedDay),
+				raceDay = moment(date),
+				schedDay = moment(date),
 				today = moment(),
 				lastDayOfWeek = 0,
 				cellClass = '',
@@ -216,7 +252,7 @@
 
 			schedDay.subtract('days', len - 1);
 
-			output += '<h3><a href="' + t.PLANS[selectedPlan].link + '" target="_blank">' + t.PLANS[selectedPlan].label + '</a></h3>';
+			output += '<h3><a href="' + plan.link + '" target="_blank">' + plan.label + '</a></h3>';
 			output += '<table class="calendar">';
 			output += '<thead>';
 			output += '<tr>';
@@ -246,15 +282,15 @@
 				// style cell
 				cellClass = '';
 
-				if (schedDay.format('YYY MM DD') < today.format('YYY MM DD')) {
+				if (schedDay.format('YYYY MM DD') < today.format('YYYY MM DD')) {
 					cellClass = 'past';
 				}
 
-				if (schedDay.format('YYY MM DD') === raceDay.format('YYY MM DD')) {
+				if (schedDay.format('YYYY MM DD') === raceDay.format('YYYY MM DD')) {
 					cellClass = 'race';
 				}
 
-				if (schedDay.format('YYY MM DD') === today.format('YYY MM DD')) {
+				if (schedDay.format('YYYY MM DD') === today.format('YYYY MM DD')) {
 					cellClass = 'today';
 				}
 
@@ -265,6 +301,7 @@
 
 				// build cell
 				output += '<td class="' + cellClass + '"">';
+				output += '<span class="dow">' + schedDay.format('ddd') + '</span>';
 				output += '<span class="date">' + schedDay.format('MMM D, YYYY') + '</span>';
 				output += '<span class="plan">' + schedule[i] + '</span>';
 				output += '</td>';
@@ -292,10 +329,27 @@
 			output += '</table>';
 
 			// other info
-			output += '<p class="src-link"><a href="' + t.PLANS[selectedPlan].link + '" target="_blank">Schedule source and more info</a></p>';
+			output += '<p class="src-link"><a href="' + plan.link + '" target="_blank">Schedule source and more info</a></p>';
 
 			$('.schedule').html(output);
 
+			t.updateLocation(raceDay.format('YYYY-MM-DD'), plan.id);
+
+		},
+
+		updateLocation: function(date, plan) {
+			window.location.hash = '/' + date + '/' + plan;
+		},
+
+		getPlanIndexById: function(id) {
+			var t = this,
+				i = t.PLANS.length;
+			while (i--) {
+				if (t.PLANS[i].id === id) {
+					return i;
+				}
+			}
+			return -1;
 		},
 
 		pad: function(num) {

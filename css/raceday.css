@@ -87,7 +87,9 @@ header h1 {
   font-weight: bold;
   margin-bottom: 5px; }
 header h2 {
-  font-size: 12px; }
+  font-size: 12px;
+  color: #888;
+  line-height: 14px; }
 
 footer {
   border-top: 1px solid #ccc;
@@ -153,28 +155,61 @@ footer {
   border-collapse: collapse;
   margin-bottom: 30px;
   width: 100%; }
+  @media screen and (max-width: 750px) {
+    .calendar tr {
+      border-bottom: 5px solid #555; } }
+  @media screen and (max-width: 750px) {
+    .calendar tr:last-child {
+      border-bottom: none; } }
   .calendar th,
   .calendar td {
     padding: 10px;
-    min-width: 100px; }
+    min-width: 100px;
+    width: 14.28571%; }
+    @media screen and (max-width: 750px) {
+      .calendar th,
+      .calendar td {
+        width: 100%; } }
+  @media screen and (max-width: 750px) {
+    .calendar th {
+      display: none; } }
   .calendar td {
     height: 100px;
     border: 1px solid #ccc;
     background-color: #fcfcfc; }
     .calendar td.today {
       background-color: #f9fcb4; }
+      .calendar td.today .plan {
+        font-weight: bold; }
     .calendar td.past {
       background-color: #eee; }
     .calendar td.empty {
       background-color: #dcdcdc; }
     .calendar td.race {
       background-color: #93dc99; }
+      .calendar td.race .date {
+        color: #555; }
+      .calendar td.race .plan {
+        font-weight: bold; }
+    @media screen and (max-width: 750px) {
+      .calendar td {
+        display: block;
+        height: auto; }
+        .calendar td.empty {
+          display: none; } }
+  .calendar .dow {
+    display: none;
+    font-size: 12px;
+    margin-bottom: 3px; }
+    @media screen and (max-width: 750px) {
+      .calendar .dow {
+        display: block; } }
   .calendar .date {
     text-transform: uppercase;
     display: block;
     font-size: 12px;
     margin-bottom: 10px;
-    color: #666; }
+    color: #888; }
   .calendar .plan {
     display: block; }
 
@@ -183,3 +218,35 @@ footer {
   font-style: italic;
   color: #888;
   margin-bottom: 30px; }
+
+@media print {
+  .nav,
+  .disclaimer,
+  header,
+  footer {
+    display: none; }
+
+  td {
+    height: auto; }
+
+  a,
+  a:visited {
+    text-decoration: underline; }
+
+  thead {
+    display: table-header-group;
+    /* h5bp.com/t */ }
+
+  tr,
+  img {
+    page-break-inside: avoid; }
+
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3; }
+
+  h2,
+  h3 {
+    page-break-after: avoid; } }
