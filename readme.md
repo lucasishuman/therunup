@@ -8,6 +8,8 @@ Click the button to show your plan in a calendar view with the real dates leadin
 
 ## To do
 
+* list sources & links (overlay or new page?)
+
 * history change (deep link are there)
 
 * export ical?

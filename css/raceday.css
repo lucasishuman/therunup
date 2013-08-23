@@ -97,6 +97,10 @@ footer {
   footer p {
     margin-bottom: 10px; }
 
+select,
+button {
+  margin: 0; }
+
 /* -------------------- *\
 	Modules
 \* -------------------- */
@@ -108,8 +112,9 @@ footer {
   .nav label {
     display: block;
     margin-bottom: 5px; }
-  .nav select {
-    margin: 0; }
+  .nav .about {
+    font-size: 12px;
+    margin-top: -10px; }
   .nav .btn-submit {
     border: 1px solid #2267a2;
     border-radius: 3px;
@@ -142,18 +147,21 @@ footer {
       opacity: 0.5;
       cursor: not-allowed; }
 
-.schedule h3 {
+.schedule .plan-name {
   font-size: 20px;
   font-weight: bold;
   margin-top: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   text-align: center; }
+.schedule .plan-link {
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 30px; }
 .schedule .src-link {
   text-align: center; }
 
 .calendar {
   border-collapse: collapse;
-  margin-bottom: 30px;
   width: 100%; }
   @media screen and (max-width: 750px) {
     .calendar tr {
@@ -186,7 +194,7 @@ footer {
     .calendar td.empty {
       background-color: #dcdcdc; }
     .calendar td.race {
-      background-color: #93dc99; }
+      background-color: #B8E6BC; }
       .calendar td.race .date {
         color: #555; }
       .calendar td.race .plan {
@@ -217,7 +225,7 @@ footer {
   font-family: serif;
   font-style: italic;
   color: #888;
-  margin-bottom: 30px; }
+  margin-bottom: 20px; }
 
 @media print {
   .nav,

@@ -252,7 +252,9 @@
 
 			schedDay.subtract('days', len - 1);
 
-			output += '<h3><a href="' + plan.link + '" target="_blank">' + plan.label + '</a></h3>';
+			output += '<h3 class="plan-name">' + plan.label + '</h3>';
+			output += '<h5 class="plan-link"><a href="' + plan.link + '" target="_blank">Schedule source and more info</a></h5>';
+
 			output += '<table class="calendar">';
 			output += '<thead>';
 			output += '<tr>';
@@ -300,7 +302,7 @@
 				}
 
 				// build cell
-				output += '<td class="' + cellClass + '"">';
+				output += '<td class="' + cellClass + '">';
 				output += '<span class="dow">' + schedDay.format('ddd') + '</span>';
 				output += '<span class="date">' + schedDay.format('MMM D, YYYY') + '</span>';
 				output += '<span class="plan">' + schedule[i] + '</span>';
@@ -327,9 +329,6 @@
 
 			output += '</tbody>';
 			output += '</table>';
-
-			// other info
-			output += '<p class="src-link"><a href="' + plan.link + '" target="_blank">Schedule source and more info</a></p>';
 
 			$('.schedule').html(output);
 
