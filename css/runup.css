@@ -92,10 +92,47 @@ header h2 {
   line-height: 14px; }
 
 footer {
-  border-top: 1px solid #ccc;
-  font-size: 12px; }
+  border-top: 1px solid #ccc; }
   footer p {
     margin-bottom: 10px; }
+  footer h3 {
+    font-weight: bold;
+    margin-bottom: 10px; }
+  footer .sources {
+    margin-bottom: 20px;
+    -webkit-columns: 5;
+    -moz-columns: 5;
+    columns: 5;
+    -webkit-column-rule: 1px solid #cccccc;
+    -moz-column-rule: 1px solid #cccccc;
+    column-rule: 1px solid #cccccc;
+    -webkit-column-gap: 20px;
+    -moz-column-gap: 20px;
+    column-gap: 20px; }
+    @media screen and (max-width: 1000px) {
+      footer .sources {
+        -webkit-columns: 4;
+        -moz-columns: 4;
+        columns: 4; } }
+    @media screen and (max-width: 800px) {
+      footer .sources {
+        -webkit-columns: 3;
+        -moz-columns: 3;
+        columns: 3; } }
+    @media screen and (max-width: 600px) {
+      footer .sources {
+        -webkit-columns: 2;
+        -moz-columns: 2;
+        columns: 2; } }
+    @media screen and (max-width: 400px) {
+      footer .sources {
+        -webkit-columns: 1;
+        -moz-columns: 1;
+        columns: 1; } }
+    footer .sources li {
+      margin-bottom: 5px; }
+  footer .credit {
+    font-size: 12px; }
 
 select,
 button {

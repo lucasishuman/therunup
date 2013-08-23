@@ -9,7 +9,7 @@
 
 (function($) {
 
-	var raceday = {
+	var runup = {
 
 		PLANS: [
 			{
@@ -140,6 +140,14 @@
 				params, date, planIndex;
 
 			t.initForm();
+
+			$('.btn-sources').on('click', function(e) {
+				e.preventDefault();
+				// scroll to bottom
+				$('html, body').animate({
+					scrollTop: $(document).height() - $(window).height()
+				}, 1000);
+			});
 
 			// check url params
 
@@ -363,7 +371,7 @@
 	};
 
 	$(function() {
-		raceday.init();
+		runup.init();
 	});
 
 

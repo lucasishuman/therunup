@@ -1,6 +1,8 @@
-# Race Day
+# The Run Up
 
-## Create a custom running training calendar leading up to your race day
+_Create a custom running training calendar leading up to your race day_
+
+<http://therunup.org/>
 
 Just pick your race date and a training plan.
 
@@ -8,9 +10,9 @@ Click the button to show your plan in a calendar view with the real dates leadin
 
 ## To do
 
-* list sources & links (overlay or new page?)
+* share links
 
-* history change (deep link are there)
+* watch history change (deep links are there)
 
 * export ical?
 

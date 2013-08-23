@@ -1,26 +1,32 @@
 <!doctype html>
 <html lang="en">
+
 	<head>
 
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
-		
-		<title>Race Day</title>
+		<meta name="description" content="Create a custom running training calendar leading up to your race day">
+		<meta name="keywords" content="run, running, marathon, half-marathon, 5k, 10k, train, training, schedule, calendar, race, jog, exercise, plan, planning">
 
-		<link rel="stylesheet" href="/css/raceday.css">
+		<meta property="og:site_name" content="The Run Up">
+		<meta property="og:title" content="The Run Up">
+		<meta property="og:type" content="website">
+		<meta property="og:description" content="Create a custom running training calendar leading up to your race day">
+		<meta property="og:url" content="http://therunup.org/">
+		<meta property="og:image" content="http://therunup.org/img/share.png">
 
-		<script type="text/javascript">
-/*
-			var _gaq = _gaq || [];
-			_gaq.push(['_setAccount', 'UA-510504-22']);
-			_gaq.push(['_trackPageview']);
+		<title>The Run Up</title>
 
-			(function() {
-				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-			})();
-*/
+		<link rel="stylesheet" href="/css/runup.css">
+
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-510504-27', 'therunup.org');
+			ga('send', 'pageview');
 		</script>
 
 	</head>
@@ -28,7 +34,7 @@
 	<body>
 
 		<header>
-			<h1><a href="/">Race Day</a></h1>
+			<h1><a href="/">The Run Up</a></h1>
 			<h2>Create a custom running training calendar leading up to your race day</h2>
 		</header>
 
@@ -44,7 +50,7 @@
 				<select class="plans"></select>
 			</p>
 			<p class="about">
-				<a href="#">About the training plans</a>
+				<a href="#sources" class="btn-sources">About the training plans</a>
 			</p>
 			<p>
 				<button class="btn-submit">Let&rsquo;s do this</button>
@@ -54,18 +60,34 @@
 		<section class="schedule">
 		</section>
 
-		<section class="disclaimer">
-			<p>I am not a doctor, trainer or sports expert. I am a web developer that runs and wanted a nicer training schedule planner. I did not make these training schedules, but collected them from <a href="#">various sources</a>. Always talk to your doctor or a trained professional when significantly altering your diet, exercise, behavior, etc.</p>
+		<section >
+			
 		</section>
 
 		<footer>
-			<p>Built by <a href="http://lucasishuman.com/">Lucas</a></p>
-			<p>Source on <a href="https://github.com/lucasishuman/raceday">GitHub</a></p>
+			<p class="disclaimer">I am not a doctor, trainer or sports expert. I am a web developer that runs and wanted a nicer training schedule planner. I did not make these training schedules, but collected them from various sources listed below. Always talk to your doctor or a trained professional when significantly altering your diet, exercise, behavior, etc.</p>
+
+			<h3>Schedule sources</h3>
+			<ul class="sources">
+				<li><a href="#" target="blank">Link</a></li>
+				<li><a href="#" target="blank">Link</a></li>
+				<li><a href="#" target="blank">Link</a></li>
+				<li><a href="#" target="blank">Link</a></li>
+				<li><a href="#" target="blank">Link</a></li>
+				<li><a href="#" target="blank">Link</a></li>
+				<li><a href="#" target="blank">Link</a></li>
+				<li><a href="#" target="blank">Link</a></li>
+				<li><a href="#" target="blank">Link</a></li>
+				<li><a href="#" target="blank">Link</a></li>
+			</ul>
+
+			<p class="credit">Built by <a href="http://lucasishuman.com/">Lucas</a></p>
+			<p class="credit">Source on <a href="https://github.com/lucasishuman/therunup">GitHub</a></p>
 		</footer>
 
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 		<script>window.jQuery || document.write('<script src="/js/libs/jquery-2.0.3.min.js"><\/script>')</script>
-		<script src="/js/raceday.min.js"></script>
+		<script src="/js/runup.min.js"></script>
 		
 	</body>
 
