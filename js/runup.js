@@ -14,7 +14,7 @@
 		PLANS: [
 			{
 				id: 'm-hhn1-18',
-				label: 'Marathon - Hal Higdon Novice 1 - 18 week',
+				label: 'Marathon - Hal Higdon Novice 1 (18 week)',
 				schedule: [
 					'Rest','3 m run','3 m run','3 m run','Rest','6','Cross',
 					'Rest','3 m run','3 m run','3 m run','Rest','7','Cross',
@@ -39,7 +39,7 @@
 			},
 			{
 				id: 'm-hhn2-18',
-				label: 'Marathon - Hal Higdon Novice 2 - 18 week',
+				label: 'Marathon - Hal Higdon Novice 2 (18 week)',
 				schedule: [
 					'Rest','3 m run','5 m pace','3 m run','Rest','8','Cross',
 					'Rest','3 m run','5 m run','3 m run','Rest','9','Cross',
@@ -63,8 +63,58 @@
 				link: 'http://www.halhigdon.com/training/51138/Marathon-Novice-2-Training-Program'
 			},
 			{
+				id: 'm-mrb-16',
+				label: 'Marathon - Marathon Rookie Beginner (16 week)',
+				schedule: [
+					'3','Rest','4','3','Rest','5','Rest',
+					'3','Rest','4','3','Rest','6','Rest',
+					'3','Rest','4','3','Rest','7','Rest',
+					'3','Rest','5','3','Rest','8','Rest',
+					'3','Rest','5','3','Rest','10','Rest',
+					'4','Rest','5','4','Rest','11','Rest',
+					'4','Rest','6','4','Rest','12','Rest',
+					'4','Rest','6','4','Rest','14','Rest',
+					'4','Rest','7','4','Rest','16','Rest',
+					'5','Rest','8','5','Rest','16','Rest',
+					'5','Rest','8','5','Rest','17','Rest',
+					'5','Rest','8','5','Rest','18','Rest',
+					'5','Rest','8','5','Rest','20','Rest',
+					'5','Rest','8','5','Rest','9','Rest',
+					'3','Rest','5','3','Rest','8','Rest',
+					'3','Rest','3','Walk 2','Rest','Marathon'
+				],
+				link: 'http://www.marathonrookie.com/marathon-training.html'
+			},
+			{
+				id: 'm-crb-20',
+				label: 'Marathon - Cool Running Beginner (20 week)',
+				schedule: [
+					'Off','3M','4M','4M','Off','3M','6M',
+					'Off','3M','5M','3M','Off','3M','7M',
+					'Off','Fartlek (4M)','5M','3M','Off','3M','8M',
+					'Off','Fartlek (4M)','3M','4M','Off','3M','10M',
+					'Off','4-5 Hills<br>5K-10K pace','3M','4M','Off','3M','12M',
+					'Off','3-4 Long Hills<br>5K-10K pace','4M','6M','Off','5M','5M',
+					'Off','3 x Mile<br>5K-10K pace','3M','5M','Off','3M','15M',
+					'Off','6M','5M','6M','Off','5M','7M',
+					'Off','5-6 Hills<br>5K-10K pace','4M','7M','Off','3M','18M',
+					'Off','7M','6M','7M','Off','6M','9M',
+					'Off','4-5 Long Hills<br>5K-10K pace','5M','8M','Off','3M','20M',
+					'Off','3 x Mile<br>5K-10K pace','5M','8M','Off','3M','10K Race<br>(Or 10M)',
+					'Off','6 x 880s<br>5K-10K pace','6M','8M','Off','3M','22M',
+					'Off','7M','5M','8M','Off','5M','10K Race<br>(Or 10M)',
+					'Off','6 x 880s<br>5K-10K pace','6M','8M','Off','3M','24M',
+					'Off','4 x Mile<br>5K-10K pace','7M','10M','Off','4M','10K Race<br>(Or 10M)',
+					'Off','5M','3M','5M','Off','3M','26M',
+					'Off','6M','5M','8M','Off','4M','12M',
+					'Off','5M','4M','6M','Off','3M','12M',
+					'Off','Fartlek (5M)','4M','Off','Off','2M','Marathon'
+				],
+				link: 'http://www.coolrunning.com/engine/2/2_4/130.shtml'
+			},
+			{
 				id: 'm-hhi1-18',
-				label: 'Marathon - Hal Higdon Intermediate 1 - 18 week',
+				label: 'Marathon - Hal Higdon Intermediate 1 (18 week)',
 				schedule: [
 					'Cross','3 m run','5 m run','3 m run','Rest','5 m pace','8',
 					'Cross','3 m run','5 m run','3 m run','Rest','5 m run','9',
@@ -89,7 +139,7 @@
 			},
 			{
 				id: 'm-hhi2-18',
-				label: 'Marathon - Hal Higdon Intermediate 2 - 18 week',
+				label: 'Marathon - Hal Higdon Intermediate 2 (18 week)',
 				schedule: [
 					'Cross','3 m run','5 m run','3 m run','Rest','5 m pace','10',
 					'Cross','3 m run','5 m run','3 m run','Rest','5 m run','11',
@@ -113,8 +163,35 @@
 				link: 'http://www.halhigdon.com/training/51140/Marathon-Intermediate-2-Training-Program'
 			},
 			{
-				id: 'hm-hha1-18',
-				label: 'Marathon - Hal Higdon Advanced 1 - 18 week',
+				id: 'm-cri-20',
+				label: 'Marathon - Cool Running Intermediate (20 week)',
+				schedule: [
+					'Off','4M','6M','4M','6M','3M','10M',
+					'Off','Fartlek<br>(5M)','3M','5M','6M','3M','11M',
+					'Off','5-6 Hills<br>5K-10K pace','3M','6M','6M','3M','12M',
+					'Off','Fartlek<br>(5M)','3M','6M','6M','3M','6',
+					'Off','6 x 440s<br>5K pace','4M','6M','6M','3M','14M',
+					'Off','4-5 Long Hills<br>5K-10K pace','4M','7M','7M','4M','8M',
+					'Off','3 x Mile<br>5K-10K pace','4M','7M','7M','3M','16M',
+					'Off','6 x 880s<br>5K-10K pace','5M','7M','7M','4M','9M',
+					'Off','6-7 Hills<br>5K-10K pace','4M','7M','7M','4M','18M',
+					'Off','6 x 880s<br>5K-10K pace','5M','8M','8M','5M','10M',
+					'Off','5-6 Long Hills<br>5K-10K pace','5M','8M','7M','4M','20M',
+					'Off','4 x Mile<br>5K-10K pace','4M','8M','8M','3M','10K Race<br>(Or 12M)',
+					'Off','4 x Fast 880s<br>5K minus 10 secs','4M','6M','6M','3M','22M',
+					'Off','6 x 880s<br>5K pace','3M','8M','6M','3M','10K Race<br>(Or 12M)',
+					'Off','4 x Mile<br>5K-10K pace','3M','5M','5M','3M','24M',
+					'Off','6M','4M','8M','6M','4M','10K Race<br>(Or 12M)',
+					'Off','6 x 880s<br>5K pace','3M','5M','Off','3M','26M',
+					'Off','Fartlek<br>(5M)','3M','6M','6M','3M','12M',
+					'Off','4M','3M','5M','5M','3M','10M',
+					'Off','Fartlek<br>(5M)','4M','5M','Off','2M','Marathon'
+				],
+				link: 'http://www.coolrunning.com/engine/2/2_4/128.shtml'
+			},
+			{
+				id: 'm-hha1-18',
+				label: 'Marathon - Hal Higdon Advanced 1 (18 week)',
 				schedule: [
 					'3 m run','5 m run','3 m run','3 x hill','Rest','5 m pace','10',
 					'3 m run','5 m run','3 m run','30 tempo','Rest','5 m run','11',
@@ -138,8 +215,8 @@
 				link: 'http://www.halhigdon.com/training/51141/Marathon-Advanced-1-Training-Program'
 			},
 			{
-				id: 'hm-hha2-18',
-				label: 'Marathon - Hal Higdon Advanced 2 - 18 week',
+				id: 'm-hha2-18',
+				label: 'Marathon - Hal Higdon Advanced 2 (18 week)',
 				schedule: [
 					'3 m run','3 x hill','3 m run','30 tempo','Rest','5 m pace','10',
 					'3 m run','30 tempo','3 m run','3 m pace','Rest','5 m run','11',
@@ -163,8 +240,35 @@
 				link: 'http://www.halhigdon.com/training/51142/Marathon-Advanced-2-Training-Program'
 			},
 			{
+				id: 'm-cra-20',
+				label: 'Marathon - Cool Running Advanced (20 week)',
+				schedule: [
+					'3M','6M','4M','6M','4M','3M','10M',
+					'3M','Fartlek<br>(6M)','4M','7M','4M','3M','12M',
+					'3M','Fartlek<br>(6M)','4M','7M','4M','3M','14M',
+					'3M','6-7 Hills<br>5K-10K pace','4M','10M','4M','3M','10M',
+					'3M','4 x Mile<br>5K-10K pace','4M','8M','4M','3M','16M',
+					'Off','6-7 Long Hills<br>5K-10K pace','4M','10M','6M','3M','8M',
+					'3M','8 x 880s<br>5K-10K pace','4M','9M','5M','3M','18M',
+					'Off','7-8 Hills<br>5K-10K pace','5M','10M','7M','3M','9M',
+					'3M','10 x 880<br>5K-10K pace','4M','9M','6M','3M','20M',
+					'Off','4 x Mile<br>5K-10K pace','5M','10M','7M','3M','10M',
+					'3M','7-8 Long Hills<br>5K-10K pace','4M','10M','6M','3M','22M',
+					'Off','5 x Mile<br>5K-10K pace','5M','10M','7M','3M','10K Race<br>(Or 12M)',
+					'3M','10 x 880s<br>5K-10K pace','5M','10M','6M','3M','24M',
+					'Off','10 x 880s<br>5K-10K pace','5M','5 x Mile<br>5K-10K pace','6M','3M','10K Race<br>(Or 12M)',
+					'3M','6 x Mile<br>5K-10K pace','5M','10M','6M','3M','26M',
+					'Off','10 x 880s<br>5K-10K pace','5M','6 x Mile<br>5K-10K pace','6M','3M','10K Race<br>(Or 12M)',
+					'3M','12 x 880s<br>5K-10K pace','5M','10M','6M','3M','28M',
+					'Off','Fartlek<br>(6M)','5M','9M','6M','3M','15M',
+					'3M','Fartlek<br>(6M)','5M','8M','6M','3M','10M',
+					'3M','Fartlek<br>(5M)','5M','7M','Off','3M','Marathon'
+				],
+				link: 'http://www.coolrunning.com/engine/2/2_4/129.shtml'
+			},
+			{
 				id: 'hm-hhn1-12',
-				label: 'Half Marathon - Hal Higdon Novice 1 - 12 week',
+				label: 'Half Marathon - Hal Higdon Novice 1 (12 week)',
 				schedule: [
 					'Stretch & strengthen','3 m run','2 m run or cross','3 m run + strength','Rest','30 min cross','4 m run',
 					'Stretch & strengthen','3 m run','2 m run or cross','3 m run + strength','Rest','30 min cross','4 m run',
@@ -183,7 +287,7 @@
 			},
 			{
 				id: 'hm-hhn2-12',
-				label: 'Half Marathon - Hal Higdon Novice 2 - 12 week',
+				label: 'Half Marathon - Hal Higdon Novice 2 (12 week)',
 				schedule: [
 					'Rest','3 m run','3 m run','3 m run','Rest','4 m run','cross',
 					'Rest','3 m run','3 m pace','3 m run','Rest','5 m run','cross',
@@ -201,8 +305,44 @@
 				link: 'http://www.halhigdon.com/training/51312/Half-Marathon-Novice-2-Training-Program'
 			},
 			{
+				id: 'hm-hhn1-12',
+				label: 'Half Marathon - Marathon Rookie Beginner (10 week)',
+				schedule: [
+					'3','Rest','3','3','Rest','4','Rest',
+					'3','Rest','4','3','Rest','5','Rest',
+					'3','Rest','4','3','Rest','6','Rest',
+					'3','Rest','5','3','Rest','8','Rest',
+					'3','Rest','5','3','Rest','10','Rest',
+					'4','Rest','5','4','Rest','11','Rest',
+					'4','Rest','6','4','Rest','12','Rest',
+					'4','Rest','5','4','Rest','9','Rest',
+					'3','Rest','4','3','Rest','8','Rest',
+					'3','Rest','3','Walk 2','Rest','Half Marathon'
+				],
+				link: 'http://www.marathonrookie.com/half-marathon-training.html'
+			},
+			{
+				id: 'hm-crb-12',
+				label: 'Half Marathon - Cool Running Beginner (12 week)',
+				schedule: [
+					'Off','Fartlek<br>(4M)','4M','4M','Off','3M','6M',
+					'Off','Fartlek<br>(4M)','5M','3M','Off','3M','7M',
+					'Off','4-5 Hills<br>5K-10K pace','5M','3M','Off','3M','6M',
+					'Off','3-4 Long Hills<br>5K-10K pace','3M','4M','Off','3M','8M',
+					'Off','5-6 Hills<br>5K-10K pace','3M','4M','Off','3M','7M',
+					'Off','3 x Mile<br>5K-10K pace','4M','6M','Off','5M','9M',
+					'Off','3 x Mile<br>5K-10K pace','3M','5M','Off','3M','7M',
+					'Off','6 x 880s<br>5K-10K pace','5M','6M','Off','5M','10M',
+					'Off','6 x 880s<br>5K-10K pace','4M','7M','Off','3M','10K Race<br>(Or 8M run)',
+					'Off','4 x Mile<br>5K-10K pace','6M','7M','Off','6M','12M',
+					'Off','5M','5M','8M','Off','3M','8M',
+					'Off','5M','5M','8M','Off','3M','Half Marathon'
+				],
+				link: 'http://www.coolrunning.com/engine/2/2_4/134.shtml'
+			},
+			{
 				id: 'hm-hhi-12',
-				label: 'Half Marathon - Hal Higdon Intermediate - 12 week',
+				label: 'Half Marathon - Hal Higdon Intermediate (12 week)',
 				schedule: [
 					'Stretch & strengthen','3 m run','5 x 400 5-K pace','3 m run + strength','Rest','3 m run','5 m run',
 					'Stretch & strengthen','3 m run','30 min tempo','3 m run + strength','Rest','3 m pace','6 m run',
@@ -220,8 +360,27 @@
 				link: 'http://www.halhigdon.com/training/51132/Half-Marathon-Intermediate-Training-Program'
 			},
 			{
+				id: 'hm-cri-12',
+				label: 'Half Marathon - Cool Running Intermediate (12 week)',
+				schedule: [
+					'Off','4M','6M','4M','6M','3M','8M',
+					'Off','Fartlek<br>(5M)','3M','5M','6M','3M','9M',
+					'Off','5-6 Hills<br>5K-10K pace','3M','6M','6M','3M','10M',
+					'Off','Fartlek<br>(5M)','3M','6M','6M','3M','8M',
+					'Off','4-5 Long Hills<br>5K-10K pace','4M','6M','6M','3M','11M',
+					'Off','6 x 880s<br>5K-10K pace','4M','7M','7M','4M','8M',
+					'Off','3 x Mile<br>5K-10K pace','4M','7M','7M','3M','12M',
+					'Off','6 x 880s<br>5K pace','5M','7M','7M','4M','9M',
+					'Off','4 x Mile<br>5K-10K pace','4M','7M','7M','4M','14M',
+					'Off','6 x 880s<br>5K pace','5M','8M','8M','5M','15M',
+					'Off','5M','5M','8M','7M','4M','8M',
+					'Off','4M','4M','6M','4M','3M','Half Marathon'
+				],
+				link: 'http://www.coolrunning.com/engine/2/2_4/133.shtml'
+			},
+			{
 				id: 'hm-hhn1-12',
-				label: 'Half Marathon - Hal Higdon Advanced - 12 week',
+				label: 'Half Marathon - Hal Higdon Advanced (12 week)',
 				schedule: [
 					'3 m run + strength','6 x hill','3 m run + strength','40 min tempo','Rest','3 m run','90 min run (3/1)',
 					'3 m run + strength','7 x 400 5-K pace','3 m run + strength','45 min tempo','Rest','3 m pace','90 min run',
@@ -237,6 +396,25 @@
 					'3 m run + strength','6 x 400 5-K pace','2 m run + strength','30 min tempo','Rest','Rest','Half Marathon'
 				],
 				link: 'http://www.halhigdon.com/training/51133/Half-Marathon-Advanced-Training-Program'
+			},
+			{
+				id: 'hm-cra-12',
+				label: 'Half Marathon - Cool Running Advanced (12 week)',
+				schedule: [
+					'3M','Fartlek<br>(6M)','4M','6M','4M','3M','10M',
+					'3M','Fartlek<br>(6M)','4M','7M','4M','3M','10M',
+					'3M','6-7 Hills<br>5K-10K pace','4M','7M','4M','3M','12M',
+					'3M','6-7 Long Hills<br>5K-10K pace','4M','10M','4M','3M','10M',
+					'3M','8 x 880s<br>5K-10K pace','4M','8M','4M','3M','12M',
+					'Off','4 x Mile<br>5K-10K pace','4M','10M','6M','3M','10M',
+					'3M','10 x 880<br>5K-10K pace','4M','9M','5M','3M','14M',
+					'Off','5 x Mile<br>5K-10K pace','5M','10M','7M','3M','10K Race<br>(or 12M run)',
+					'3M','10 x 880s<br>5K-10K pace','4M','9M','6M','3M','15M',
+					'Off','10 x 880s<br>5K-10K pace','5M','10M','7M','3M','15M',
+					'3M','8M','4M','8M','6M','3M','10M',
+					'Off','6M','5M','8M','5M','3M','Half Marathon'
+				],
+				link: 'http://www.coolrunning.com/engine/2/2_4/132.shtml'
 			}
 		],
 
@@ -276,7 +454,8 @@
 				daysOpts = '',
 				yearsOpts = '',
 				plansOpts = '',
-				i, d, now, selected;
+				i, d, now, selected,
+				lastRaceType = null;
 
 
 			// construct month options ---
@@ -319,8 +498,29 @@
 			// construct plan options ---
 			
 			$.each(t.PLANS, function(index, el) {
+
+				// group same race types --
+				var thisRaceType = el.id.split('-')[0],
+					groupLabel;
+
+				if (thisRaceType !== lastRaceType) {
+					if (lastRaceType !== null) {
+						plansOpts += '</optgroup>';
+					}
+					if (thisRaceType === 'm') {
+						groupLabel = "Marathon";
+					} else if (thisRaceType === 'hm') {
+						groupLabel = "Half marathon";
+					}
+					plansOpts += '<optgroup label="' + groupLabel + '">';
+				}
+
 				plansOpts += '<option value="' +index + '">' + el.label + '</option>';
+				lastRaceType = thisRaceType;
 			});
+
+			// close last group
+			plansOpts += '</optgroup>';
 
 			$('select.plans').append(plansOpts);
 

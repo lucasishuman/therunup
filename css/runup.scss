@@ -67,8 +67,7 @@ header {
 
 footer {
 	border-top: 1px solid #ccc;
-	//font-size: 12px;
-
+	
 	p {
 		margin-bottom: 10px
 	}
@@ -80,23 +79,15 @@ footer {
 
 	.sources {
 		margin-bottom: 20px;
-		@include columns(5);
+		@include columns(3);
 		@include column-rule(1px solid #ccc);
 		@include column-gap(20px);
 
-		@media screen and (max-width: 1000px) {
-			@include columns(4);
-		}
-
-		@media screen and (max-width: 800px) {
-			@include columns(3);
-		}
-
-		@media screen and (max-width: 600px) {
+		@media screen and (max-width: 750px) {
 			@include columns(2);
 		}
 
-		@media screen and (max-width: 400px) {
+		@media screen and (max-width: 550px) {
 			@include columns(1);
 		}
 

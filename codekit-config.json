@@ -13,6 +13,17 @@
       "outputAbbreviatedPath" : "\/js\/libs\/moment.min.min.js",
       "fileType" : 64
     },
+    "\/js\/runup.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/runup.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/runup.min.js",
+      "fileType" : 64
+    },
     "\/js\/runup.min.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -22,17 +33,6 @@
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/runup.min.min.js",
-      "fileType" : 64
-    },
-    "\/js\/runup.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/runup.js",
-      "outputStyle" : 0,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/runup.min.js",
       "fileType" : 64
     },
     "\/css\/_reset.scss" : {
@@ -47,15 +47,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/js\/libs\/jquery-2.0.3.min.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -66,6 +57,15 @@
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-2.0.3.min.min.js",
       "fileType" : 64
+    },
+    "\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/css\/runup.scss" : {
       "ignoreWasSetByUser" : 0,
