@@ -13,8 +13,8 @@
 
 		PLANS: [
 			{
-				id: 'm-n1-18',
-				label: 'Marathon - Novice 1 - 18 week',
+				id: 'm-hhn1-18',
+				label: 'Marathon - Hal Higdon Novice 1 - 18 week',
 				schedule: [
 					'Rest','3 m run','3 m run','3 m run','Rest','6','Cross',
 					'Rest','3 m run','3 m run','3 m run','Rest','7','Cross',
@@ -38,8 +38,8 @@
 				link: 'http://www.halhigdon.com/training/51137/Marathon-Novice-1-Training-Program'
 			},
 			{
-				id: 'm-n2-18',
-				label: 'Marathon - Novice 2 - 18 week',
+				id: 'm-hhn2-18',
+				label: 'Marathon - Hal Higdon Novice 2 - 18 week',
 				schedule: [
 					'Rest','3 m run','5 m pace','3 m run','Rest','8','Cross',
 					'Rest','3 m run','5 m run','3 m run','Rest','9','Cross',
@@ -63,8 +63,8 @@
 				link: 'http://www.halhigdon.com/training/51138/Marathon-Novice-2-Training-Program'
 			},
 			{
-				id: 'm-i1-18',
-				label: 'Marathon - Intermediate 1 - 18 week',
+				id: 'm-hhi1-18',
+				label: 'Marathon - Hal Higdon Intermediate 1 - 18 week',
 				schedule: [
 					'Cross','3 m run','5 m run','3 m run','Rest','5 m pace','8',
 					'Cross','3 m run','5 m run','3 m run','Rest','5 m run','9',
@@ -88,8 +88,8 @@
 				link: 'http://www.halhigdon.com/training/51139/Marathon-Intermediate-1-Training-Program'
 			},
 			{
-				id: 'm-i2-18',
-				label: 'Marathon - Intermediate 2 - 18 week',
+				id: 'm-hhi2-18',
+				label: 'Marathon - Hal Higdon Intermediate 2 - 18 week',
 				schedule: [
 					'Cross','3 m run','5 m run','3 m run','Rest','5 m pace','10',
 					'Cross','3 m run','5 m run','3 m run','Rest','5 m run','11',
@@ -113,8 +113,58 @@
 				link: 'http://www.halhigdon.com/training/51140/Marathon-Intermediate-2-Training-Program'
 			},
 			{
-				id: 'hm-n1-12',
-				label: 'Half Marathon - Novice 1 - 12 week',
+				id: 'hm-hha1-18',
+				label: 'Marathon - Hal Higdon Advanced 1 - 18 week',
+				schedule: [
+					'3 m run','5 m run','3 m run','3 x hill','Rest','5 m pace','10',
+					'3 m run','5 m run','3 m run','30 tempo','Rest','5 m run','11',
+					'3 m run','6 m run','3 m run','4 x 800','Rest','6 m pace','8',
+					'3 m run','6 m run','3 m run','4 x hill','Rest','6 m pace','13',
+					'3 m run','7 m run','3 m run','35 tempo','Rest','7 m run','14',
+					'3 m run','7 m run','3 m run','5 x 800','Rest','7 m pace','10',
+					'3 m run','8 m run','4 m run','5 x hill','Rest','8 m pace','16',
+					'3 m run','8 m run','4 m run','40 tempo','Rest','8 m run','17',
+					'3 m run','9 m run','4 m run','6 x 800','Rest','Rest','Half Marathon',
+					'3 m run','9 m run','4 m run','6 x hill','Rest','9 m pace','19',
+					'4 m run','10 m run','5 m run','45 tempo','Rest','10 m run','20',
+					'4 m run','6 m run','5 m run','7 x 800','Rest','6 m pace','12',
+					'4 m run','10 m run','5 m run','7 x hill','Rest','10 m pace','20',
+					'5 m run','6 m run','5 m run','45 tempo','Rest','6 m run','12',
+					'5 m run','10 m run','5 m run','8 x 800','Rest','10 m pace','20',
+					'5 m run','8 m run','5 m run','6 x hill','Rest','4 m pace','12',
+					'4 m run','6 m run','4 m run','30 tempo','Rest','4 m run','8',
+					'3 m run','4 x 400','2 m run','Rest','Rest','2 m run','Marathon'
+				],
+				link: 'http://www.halhigdon.com/training/51141/Marathon-Advanced-1-Training-Program'
+			},
+			{
+				id: 'hm-hha2-18',
+				label: 'Marathon - Hal Higdon Advanced 2 - 18 week',
+				schedule: [
+					'3 m run','3 x hill','3 m run','30 tempo','Rest','5 m pace','10',
+					'3 m run','30 tempo','3 m run','3 m pace','Rest','5 m run','11',
+					'3 m run','4 x 800','3 m run','30 tempo','Rest','6 m pace','8',
+					'3 m run','4 x hill','3 m run','35 tempo','Rest','6 m pace','13',
+					'3 m run','35 tempo','3 m run','3 m pace','Rest','7 m run','14',
+					'3 m run','5 x 800','3 m run','35 tempo','Rest','7 m pace','10',
+					'3 m run','5 x hill','4 m run','40 tempo','Rest','8 m pace','16',
+					'3 m run','40 tempo','4 m run','3 m pace','Rest','8 m run','17',
+					'4 m run','6 x 800','4 m run','40 tempo','Rest','Rest','Half Marathon',
+					'3 m run','6 x hill','4 m run','45 tempo','Rest','9 m pace','19',
+					'4 m run','45 tempo','5 m run','4 m pace','Rest','10 m run','20',
+					'4 m run','7 x 800','5 m run','45 tempo','Rest','6 m pace','12',
+					'4 m run','7 x hill','5 m run','50 tempo','Rest','10 m pace','20',
+					'5 m run','45 tempo','5 m run','5 m pace','Rest','6 m run','12',
+					'5 m run','8 x 800','5 m run','40 tempo','Rest','10 m pace','20',
+					'5 m run','6 x hill','5 m run','30 tempo','Rest','4 m pace','12',
+					'4 m run','30 tempo','4 m run','4 m pace','Rest','4 m run','8',
+					'3 m run','4 x 400','3 m run','Rest','Rest','2 m run','Marathon'
+				],
+				link: 'http://www.halhigdon.com/training/51142/Marathon-Advanced-2-Training-Program'
+			},
+			{
+				id: 'hm-hhn1-12',
+				label: 'Half Marathon - Hal Higdon Novice 1 - 12 week',
 				schedule: [
 					'Stretch & strengthen','3 m run','2 m run or cross','3 m run + strength','Rest','30 min cross','4 m run',
 					'Stretch & strengthen','3 m run','2 m run or cross','3 m run + strength','Rest','30 min cross','4 m run',
@@ -130,6 +180,63 @@
 					'Stretch & strengthen','4 m run','3 m run or cross','2 m run','Rest','Rest','Half Marathon'
 				],
 				link: 'http://www.halhigdon.com/training/51131/Half-Marathon-Novice-1-Training-Program'
+			},
+			{
+				id: 'hm-hhn2-12',
+				label: 'Half Marathon - Hal Higdon Novice 2 - 12 week',
+				schedule: [
+					'Rest','3 m run','3 m run','3 m run','Rest','4 m run','cross',
+					'Rest','3 m run','3 m pace','3 m run','Rest','5 m run','cross',
+					'Rest','3 m run','4 m run','3 m run','Rest','6 m run','cross',
+					'Rest','3 m run','4 m pace','3 m run','Rest','7 m run','cross',
+					'Rest','3 m run','4 m run','3 m run','Rest','8 m run','cross',
+					'Rest','3 m run','4 m pace','3 m run','Rest','5-K Race','cross',
+					'Rest','3 m run','5 m run','3 m run','Rest','9 m run','cross',
+					'Rest','3 m run','5 m pace','3 m run','Rest','10 m run','cross',
+					'Rest','3 m run','5 m run','3 m run','Rest','10-K Race','cross',
+					'Rest','3 m run','5 m pace','3 m run','Rest','11 m run','cross',
+					'Rest','3 m run','5 m run','3 m run','Rest','12 m run','cross',
+					'Rest','3 m run','2 m pace','2 m run','Rest','Rest','Half Marathon'
+				],
+				link: 'http://www.halhigdon.com/training/51312/Half-Marathon-Novice-2-Training-Program'
+			},
+			{
+				id: 'hm-hhi-12',
+				label: 'Half Marathon - Hal Higdon Intermediate - 12 week',
+				schedule: [
+					'Stretch & strengthen','3 m run','5 x 400 5-K pace','3 m run + strength','Rest','3 m run','5 m run',
+					'Stretch & strengthen','3 m run','30 min tempo','3 m run + strength','Rest','3 m pace','6 m run',
+					'Stretch & strengthen','3.5 m run','6 x 400 5-K pace','3 m run + strength','Rest','Rest','5-K Race',
+					'Stretch & strengthen','3.5 m run','35 min tempo','3 m run + strength','Rest','3 m run','7 m run',
+					'Stretch & strengthen','4 m run','7 x 400 5-K pace','3 m run + strength','Rest','3 m pace','8 m run',
+					'Stretch & strengthen','4 m run','40 min tempo','3 m run + strength','Rest or easy run','Rest','10-K Race',
+					'Stretch & strengthen','4.5 m run','8 x 400 5-K pace','3 m run + strength','Rest','4 m pace','9 m run',
+					'Stretch & strengthen','4.5 m run','40 min tempo','3 m run + strength','Rest','5 m pace','10 m run',
+					'Stretch & strengthen','5 m run','9 x 400 5-K pace','3 m run + strength','Rest or easy run','Rest','15-K Race',
+					'Stretch & strengthen','5 m run','45 min tempo','3 m run + strength','Rest','5 m pace','11 m run',
+					'Stretch & strengthen','5 m run','10 x 400 5-K pace','3 m run + strength','Rest','3 m pace','12 m run',
+					'Stretch & strengthen','4 m run','30 min tempo','2 m run','Rest','Rest','Half Marathon'
+				],
+				link: 'http://www.halhigdon.com/training/51132/Half-Marathon-Intermediate-Training-Program'
+			},
+			{
+				id: 'hm-hhn1-12',
+				label: 'Half Marathon - Hal Higdon Advanced - 12 week',
+				schedule: [
+					'3 m run + strength','6 x hill','3 m run + strength','40 min tempo','Rest','3 m run','90 min run (3/1)',
+					'3 m run + strength','7 x 400 5-K pace','3 m run + strength','45 min tempo','Rest','3 m pace','90 min run',
+					'3 m run + strength','7 x hill','3 m run + strength','30 min tempo','Rest or easy run','Rest','5-K Race',
+					'3 m run + strength','8 x 400 5-K pace','3 m run + strength','40 min tempo','Rest','3 m run','90 min run (3/1)',
+					'3 m run + strength','8 x hill','3 m run + strength','45 min tempo','Rest','3 m pace','90 min run',
+					'3 m run + strength','8 x 400 5-K pace','3 m run + strength','30 min tempo','Rest or easy run','Rest','10-K Race',
+					'3 m run + strength','4 x 800 10-K pace','3 m run + strength','45 min tempo','Rest','4 m pace','1:45 run (3/1)',
+					'3 m run + strength','3 x 1600 race pace','3 m run + strength','50 min tempo','Rest','5 m pace','1:45 run',
+					'3 m run + strength','5 x 800 10-K pace','3 m run + strength','30 min tempo','Rest or easy run','Rest','15-K Race',
+					'3 m run + strength','4 x 1600 race pace','3 m run + strength','55 min tempo','Rest','5 m pace','2:00 run (3/1)',
+					'3 m run + strength','6 x 800 10-K pace','3 m run + strength','60 min tempo','Rest','3 m pace','2:00 run',
+					'3 m run + strength','6 x 400 5-K pace','2 m run + strength','30 min tempo','Rest','Rest','Half Marathon'
+				],
+				link: 'http://www.halhigdon.com/training/51133/Half-Marathon-Advanced-Training-Program'
 			}
 		],
 
