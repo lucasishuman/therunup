@@ -47,6 +47,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/js\/libs\/jquery-2.0.3.min.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -58,22 +67,13 @@
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-2.0.3.min.min.js",
       "fileType" : 64
     },
-    "\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/css\/runup.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/css\/runup.scss",
-      "outputStyle" : 0,
+      "outputStyle" : 3,
       "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/css\/runup.css",
       "fileType" : 4,

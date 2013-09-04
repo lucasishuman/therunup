@@ -129,6 +129,10 @@ button {
 		margin-top: -10px;
 	}
 
+	.plans {
+		max-width: 100%;
+	}
+
 	.btn-submit {
 		@include button(simple, #428BCA);
 		font-size: 16px;
